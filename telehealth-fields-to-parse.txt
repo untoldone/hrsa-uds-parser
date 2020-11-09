@@ -1,0 +1,67 @@
+"Who did you use telemedicine to communicate with? (Select all that apply) - ODE Column A":
+
+-
+Patients at remote locations from your organization (e.g. home telehealth satellite locations)
+Specialists outside your organization (e.g. specialists at referral centers)
+
+=========
+
+"What telehealth technologies did you use? (Select all that apply) - ODE Column A":
+
+-
+Real-time telehealth (e.g. live videoconferencing)
+Remote patient monitoring
+Store-and-forward telehealth (e.g. secure email with photos or videos of patient examinations)
+Mobile Health (mHealth)
+
+=========
+
+" What primary telemedicine services were used at your organization? (Select all that apply) - ODE Column A":
+
+-
+Behavioral health: Mental health
+Behavioral health: Substance use disorder
+Chronic conditions
+Consumer health education
+Dermatology
+Disaster management
+Nutrition and dietary counseling
+Oral health
+Other (Please specify)
+Primary care
+Provider-to-provider consultation
+Radiology
+
+=========
+
+
+"If you did not have telemedicine services, please comment why (Select all that apply) - ODE Column A":
+
+-
+Have not considered/unfamiliar with telehealth service options
+Inadequate broadband/telecommunication service
+Lack of funding for telehealth equipment
+Lack of training for telehealth services
+Not needed
+Other (Please specify)
+Policy barriers
+
+=========
+
+"Policy barriers (Select all that apply) - ODE Column A":
+
+-
+Credentialing licensing or privileging
+Privacy and security
+Lack of or limited reimbursement
+Other (Please specify)
+
+=========
+
+
+"Inadequate broadband/telecommunication service (Select all that apply) - ODE Column A":
+
+-
+Lack of infrastructure
+Cost of service
+Other (Please specify)

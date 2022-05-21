@@ -1,3 +1,5 @@
+# Input file from https://www.hrsa.gov/foia/electronic-reading.html section 2019 UDS Data
+
 require "roo"
 
 if ARGV[0] == nil
@@ -69,7 +71,7 @@ output_headers.uniq!
 site_sheet = xlsx.sheet("HealthCenterSiteInfo")
 row_count = site_sheet.last_row
 
-CSV.open(ARGV[1], "w") do |output|
+CSV.open(ARGV[1], "w:iso-8859-1") do |output|
   output << output_headers
 
   (row_count - 1).times do |index|
@@ -86,7 +88,7 @@ CSV.open(ARGV[1], "w") do |output|
     end
 
     output_headers.each_with_index do |header, index|
-      row[index] = data[header]
+      row[index] = data[header].force_encoding("iso-8859-1")
     end
 
     output << row
